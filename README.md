@@ -67,7 +67,7 @@ This diagram illustrates a structured Retrieval-Augmented Generation (RAG) archi
    - Each component response includes citations to the source data.
     - See CITATION_PROMPT_A, CITATION_PROMPT_B in `prompts.py` for prompts used.
 
-8. **Agent (OpenAI gpt-4o)**:
+8. **Agent (OpenAI gpt-4o-mini)**:
    - Interacts with human user via a chat interface.
    - The Agent (based on LLM accessed via API) oversees response generation by:
      - Selecting the appropriate vector store index based on the transformed query.
