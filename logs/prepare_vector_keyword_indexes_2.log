@@ -1,0 +1,9 @@
+2024-11-15 10:43:55,299 - INFO - Environment variables loaded.
+2024-11-15 10:43:55,306 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-11-15 10:44:53,319 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-15 10:44:53,494 - INFO - Number of chunk nodes for scraped household support data: 10
+2024-11-15 10:44:53,494 - INFO - Total nodes consolidated after parse scraped household support data: 10
+2024-11-15 10:44:54,291 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-11-15 10:44:54,779 - INFO - Added nodes into vector store for: scraped household_support.txt
+2024-11-15 10:44:54,782 - DEBUG - Building index from IDs objects
+2024-11-15 10:44:54,782 - INFO - Added all nodes into keyword store
