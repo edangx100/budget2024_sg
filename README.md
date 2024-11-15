@@ -153,7 +153,7 @@ If the initial Agent-driven analysis doesn't select the correct index due to unc
 
 - Exploration of chunking strategies: [Colab Notebook](https://colab.research.google.com/drive/1SQAo4BsADWxzTBD-TJ8cmQypi5jx6MQ-?usp=sharing)
 - Added streaming text effect for enhanced user experience.
-- Deployed the Budget Chatbot 2024 on the cloud: [Demo](https://bit.ly/3OaieNW)
+- Deployed the Budget Chatbot 2024 on the cloud: [Demo](https://bit.ly/3OaieNW){:target="_blank"}
 
 
 
