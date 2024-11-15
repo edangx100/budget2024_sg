@@ -149,9 +149,7 @@ If the initial Agent-driven analysis doesn't select the correct index due to unc
     - Source Ax indicates the source of the data is from index V1.
     - Source Bx indicates the source of the data is from index V2.
     - Node ID is the identifier for the specific node/chunk in the vector store.
-<div style="text-align: center;">
-    <img src="images/citation_example.png" alt="citation_example">
-</div>
+![citation_example](images/citation_example.png)
 
 - Exploration of chunking strategies: [Colab Notebook](https://colab.research.google.com/drive/1SQAo4BsADWxzTBD-TJ8cmQypi5jx6MQ-?usp=sharing)
 - Added streaming text effect for enhanced user experience.
