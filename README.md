@@ -133,7 +133,7 @@ If the initial Agent-driven analysis doesn't select the correct index due to unc
 7. **Final Response Synthesis by Agent**:
    - The Agent synthesizes a final response by integrating the separate component responses from each selected index.
 
-8. **System Reset and Await New Query**:
+8. **Response Generation Complete and Await New Query**:
    - After the final response is generated, the system awaits for a new user query.
 
 ### Additional Information
