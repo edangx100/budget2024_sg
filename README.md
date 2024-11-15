@@ -196,7 +196,7 @@ LLAMA_CLOUD_API_KEY=your-llama-cloud-key-here
 3. **Pull and Run the Docker Container**
 ```bash
 # Pull the image
-docker pull edangx100/streamlit_test0
+docker pull edangx100/budget2024_sg
 
 # Run the container
 docker run -d \
@@ -235,4 +235,4 @@ docker ps -a | grep budget2024_sg
 
 1. **Port Conflict**: If port 8501 is already in use, modify the port mapping in the docker run command:
 ```bash
-docker run -d -p 8502:8501 --env-file .env edangx100/streamlit_test0
+docker run -d -p 8502:8501 --env-file .env edangx100/budget2024_sg
