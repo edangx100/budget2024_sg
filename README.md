@@ -146,8 +146,8 @@ If the initial Agent-driven analysis doesn't select the correct index due to unc
 ## Additional Features Implemented
 
 - User query responses include citations that link directly to the original sources.
-    - Source Ax indicates the source of the data is from index V1.
-    - Source Bx indicates the source of the data is from index V2.
+    - Source A indicates the source of the data is from index V1.
+    - Source B indicates the source of the data is from index V2.
     - Node ID is the identifier for the specific node/chunk in the vector store.
 ![citation_example](images/citation_example_v2.png)
 
