@@ -20,7 +20,7 @@ CITATION_PROMPT_A = PromptTemplate(
     """
     Please provide an answer based solely on the provided sources.
     node_id must be string-based UUIDs, not sequential numbers of retrieved sources.
-    (IMPORTANT) Gather node_id of all provided sources into a list first. 
+    CRITICAL: Gather node_id of all provided sources into a list first. 
 
     When referencing information from a source,
     cite the appropriate source(s) from vector store index using the exact node_id
@@ -53,7 +53,7 @@ CITATION_PROMPT_B = PromptTemplate(
     """
     Please provide an answer based solely on the provided sources.
     node_id must be string-based UUIDs, not sequential numbers of retrieved sources.
-    (IMPORTANT) Gather node_id of all provided sources into a list first. 
+    CRITICAL: Gather node_id of all provided sources into a list first. 
 
     When referencing information from a source,
     cite the appropriate source(s) from vector store index using the exact node_id

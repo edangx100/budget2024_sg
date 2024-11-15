@@ -309,55 +309,5 @@ def main():
         st.session_state.messages.append({"role": "assistant", "content": full_response})
 
 
-    # # ------------------------------------ #
-    # # response_stream = agent.stream_chat("What is my personal income tax in 2024?")
-    # # response_stream = agent.stream_chat("What is personal income tax operating revenue in 2024?")
-    # # response_stream = agent.stream_chat("What is Singapore's operating revenue for personal income tax in 2024?")
-
-    # # response_stream = agent.stream_chat("What are the Key POINTS in Budget 2024?")
-
-
-    # response_stream = agent.stream_chat("What are the Key reasons for high inflation over the last two years?")
-    # # response_stream = agent.stream_chat("What are the reasons for higher cost of living over the last two years?")
-    # # response_stream = agent.stream_chat("How is Singapore's economy doing?")
-
-
-    # # response_stream = agent.stream_chat("What are the payouts i can expect to receive in December 2024?")
-    # # response_stream = agent.stream_chat("What can i get in Dec 2024?")
-
-
-
-    # # response_stream = agent.stream_chat("Am I elligble for MAJULAH package?")
-    # # response_stream = agent.stream_chat("Can i get MAJULAH package?")
-    # # response_stream = agent.stream_chat("Do i have MAJULAH package?")
-    # # response_stream = agent.stream_chat("What is elligblilty for MAJULAH package?")
-
-    # # response_stream = agent.stream_chat("What is Assurance package?")
-    # # response_stream = agent.stream_chat("When can i get Assurance package?")
-    # # response_stream = agent.stream_chat("What can i get for Assurance package?")
-
-    # # response_stream = agent.stream_chat("What can i get for Medisave?")
-    # # response_stream = agent.stream_chat("Can i get for Medisave?")
-
-
-    # # response_stream = agent.stream_chat("What is Comlink package? Can i get Comlink package?")      # !
-    # # response_stream = agent.stream_chat("What is Comlink package?")
-    # # response_stream = agent.stream_chat("Can i get Comlink package?")
-
-    # # response_stream = agent.stream_chat("Who is Lawrence Wong?")
-
-
-
-    # # response_stream = agent.stream_chat("What is Budget 2023 key points?")
-    # # response_stream = agent.stream_chat("What is AI Singapore?")
-
-    # response_stream.print_response_stream()
-
-    # # Print source nodes if they exist
-    # if hasattr(response_stream, 'source_nodes'):
-    #     print("\nSource Nodes:")
-    #     for idx, node in enumerate(response_stream.source_nodes):
-    #         print(f"Node ID: {node.node_id}")
-
 if __name__ == "__main__":
     main()

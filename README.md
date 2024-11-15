@@ -57,6 +57,7 @@ This diagram illustrates a structured Retrieval-Augmented Generation (RAG) archi
 
 6. **ReRanker (Cohere rerank-english-v3.0)**:
    - Each vector store index has a dedicated ReRanker (accessed via API).
+   - The use of ReRanker allows for more contextually relevant results to be retrieved from the Vector Store.
    - After results are retrieved from the Vector Store indices, the ReRanker reorders them to prioritize the most contextually relevant responses.
    - The re-ranked results are then sent to the LLM(s) associated with each selected vector store index.
 
@@ -237,4 +238,3 @@ docker ps -a | grep budget2024_sg
 1. **Port Conflict**: If port 8501 is already in use, modify the port mapping in the docker run command:
 ```bash
 docker run -d -p 8502:8501 --env-file .env edangx100/streamlit_test0
-```# budget2024_sg
