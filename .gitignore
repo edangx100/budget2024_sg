@@ -1,2 +1,10 @@
+# Environment variables
 .env
+
+# Python cache
 __pycache__/
+
+# Git credential files
+.git-credentials
+*.key
+.env.local
